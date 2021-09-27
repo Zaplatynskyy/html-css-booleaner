@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* proprietà header della pagina con immagine e titolo */
+.headerImg{
+    background-color: rgb(78, 160, 255);
+    background-image: url("../img/pattern.png");
+    height: 150px;
+    padding-left: 20px;
+}
+
+#logo{
+    width: 250px;
+    margin-top: 70px;
+}
+
+h1{
+    margin-bottom: 0;
+}
+
+.testoGrigio{
+    color: grey;
+}
+
+#testoLogo{
+    color: rgb(32, 169, 229);
+}
+
+/* proprietà corpo main della pagina */
+main{
+    margin-top: 20px;
+}
+
+.infoImg{
+    font-size: 12px;
+}
+
+.testoEvidenziato{
+    background-color: yellow;
+}
+
+/* proprietà della table */
+table{
+    border-spacing: 0;
+}
+
+th{
+    text-align: left;
+}
+
+.primaColonna, .secondaColonna{
+    width: 20%;
+}
+
+.terzaColonna{
+    width: 60%;
+}
+
+.rigaHead{
+    background-color: rgb(32, 169, 229);
+    color: white;
+}
+
+.rigaBodyCeleste{
+    background-color: rgb(177, 229, 242);
+}
+
+/* proprietà immagini e testo nella sezione altri interessi */
+.contenitoreImgInteressi{
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.contenitoreImgInteressi.prima{
+    background-image: url('../img/monitor.jpg');
+}
+
+.contenitoreImgInteressi.seconda{
+    background-image: url('../img/graph.jpg');
+}
+
+.testoImgInteressi{
+    color: white;
+    font-size: 30px;
+}
+
