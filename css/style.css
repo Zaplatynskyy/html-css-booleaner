@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+/* proprietà header della pagina con immagine e titolo */
 .headerImg{
     background-color: rgb(78, 160, 255);
     background-image: url("../img/pattern.png");
@@ -26,6 +27,7 @@ h1{
     color: rgb(32, 169, 229);
 }
 
+/* proprietà corpo main della pagina */
 main{
     margin-top: 20px;
 }
@@ -36,4 +38,30 @@ main{
 
 .testoEvidenziato{
     background-color: yellow;
+}
+
+/* proprietà della table */
+table{
+    border-spacing: 0;
+}
+
+th{
+    text-align: left;
+}
+
+.primaColonna, .secondaColonna{
+    width: 20%;
+}
+
+.terzaColonna{
+    width: 60%;
+}
+
+.rigaHead{
+    background-color: rgb(32, 169, 229);
+    color: white;
+}
+
+.rigaBodyCeleste{
+    background-color: rgb(177, 229, 242);
 }
