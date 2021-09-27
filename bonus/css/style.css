@@ -9,7 +9,7 @@ body{
 /* proprietà header della pagina con immagine e titolo */
 .headerImg{
     background-color: rgb(78, 160, 255);
-    background-image: url("../img/pattern.png");
+    background-image: url("../../img/pattern.png");
     height: 150px;
     padding-left: 20px;
 }
@@ -81,11 +81,11 @@ th{
 }
 
 .contenitoreImgInteressi.prima{
-    background-image: url('../img/monitor.jpg');
+    background-image: url('../../img/monitor.jpg');
 }
 
 .contenitoreImgInteressi.seconda{
-    background-image: url('../img/graph.jpg');
+    background-image: url('../../img/graph.jpg');
 }
 
 .testoImgInteressi{
