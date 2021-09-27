@@ -6,6 +6,13 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+/* contenitore titolo e corpo centrale della pagina 
+definito con grandezza e centratura */
+.contenitore{
+    width: 1200px;
+    margin: auto;
+}
+
 /* proprietà header della pagina con immagine e titolo */
 .headerImg{
     background-color: rgb(78, 160, 255);
