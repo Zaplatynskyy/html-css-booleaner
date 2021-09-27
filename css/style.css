@@ -19,7 +19,7 @@ h1{
     margin-bottom: 0;
 }
 
-.produzione{
+.testoGrigio{
     color: grey;
 }
 
@@ -65,3 +65,27 @@ th{
 .rigaBodyCeleste{
     background-color: rgb(177, 229, 242);
 }
+
+/* proprietà immagini e testo nella sezione altri interessi */
+.contenitoreImgInteressi{
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.contenitoreImgInteressi.prima{
+    background-image: url('../img/monitor.jpg');
+}
+
+.contenitoreImgInteressi.seconda{
+    background-image: url('../img/graph.jpg');
+}
+
+.testoImgInteressi{
+    color: white;
+    font-size: 30px;
+}
+
